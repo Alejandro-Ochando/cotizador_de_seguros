@@ -1,8 +1,11 @@
 import React from 'react';
+import Header from './components/Header';
 
 function App() {
   return (
-    <h2>Cotizador</h2>
+    <Header 
+      titulo="Cotizador de Seguros"
+    />
   );
 }
 
