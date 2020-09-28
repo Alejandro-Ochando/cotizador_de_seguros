@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from '@emotion/styled';
-import { obtenerDiferenciaYear, calcularMarca } from '../helper';
+import { obtenerDiferenciaYear, calcularMarca, obtenerPlan } from '../helper';
 
 const Campo = styled.div`
     display:flex;
@@ -20,11 +20,9 @@ const Select = styled.select`
     --webkit-appearance:none;
 `;
 
-
 const InputRadio = styled.input`
     margin:0 1rem;
 `;
-
 
 const Boton = styled.button`
     background-color: #00838F;
@@ -65,7 +63,6 @@ const Formulario = () => {
         plan: ''
     });
     
-
     //Error en la validacion
     const [ error, guardarError ] = useState(false);
 
@@ -79,6 +76,7 @@ const Formulario = () => {
             [e.target.name] : e.target.value
         })
     }
+
 
 
     //Cuando el usuario presiona submit
@@ -109,8 +107,12 @@ const Formulario = () => {
 
         //Plan Basico aumenta 20%
         //Plan Completo 50%
-
+        const incrementoPlan = obtenerPlan(plan);
+        resultado = parseFloat(resultado * incrementoPlan).toFixed(2);
+        
+        
         //Total
+
     }
 
 
