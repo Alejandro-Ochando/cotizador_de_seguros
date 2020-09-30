@@ -32,7 +32,7 @@ const Resultado = ({ cotizacion }) => {
     
     return ( 
         (cotizacion === 0) 
-            ? <Mensaje>Elige marca, año y tipo de seguro</Mensaje> 
+            ? <Mensaje>Elige Marca, Año y Plan de seguro</Mensaje> 
             :
                 (
                     <ResultadoCotizacion>
@@ -45,7 +45,7 @@ const Resultado = ({ cotizacion }) => {
                                 key={cotizacion}
                                 timeout={ {enter: 500, exit: 500} }
                             >
-                                <TextoCotizacion>El total es: <span>{cotizacion}</span> €</TextoCotizacion>
+                                <TextoCotizacion>Total a pagar: <span>{cotizacion}</span> €</TextoCotizacion>
                             </CSSTransition>
                         </TransitionGroup>
                     </ResultadoCotizacion>
