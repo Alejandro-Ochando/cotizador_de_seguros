@@ -14,8 +14,8 @@ This is my project made in React, ***it is not functional on production lathes**
 
 ## Used Libraries
 ```plain
-  ## import styled from '@emotion/styled';
-  ## import { TransitionGroup, CSSTransition } from 'react-transition-group´;
+  import styled from '@emotion/styled';
+  import { TransitionGroup, CSSTransition } from 'react-transition-group´;
 ```
 
 
