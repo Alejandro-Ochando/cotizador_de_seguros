@@ -29,7 +29,7 @@ This is my project made in React, ***it is not functional on production lathes**
 ##### Validation messages and Snipper
 
 <img src=https://i.ibb.co/ZzX0mDf/validacion.png>
-<img src=https://i.ibb.co/WFf9pHb/Snipper.png>
+<img src=https://i.ibb.co/2sNNfWX/Snipper.png>
 
 
 
