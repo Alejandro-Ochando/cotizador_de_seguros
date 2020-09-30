@@ -12,6 +12,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is my project made in React, ***it is not functional on production lathes***. It can be used to see basic React functions and in educational environments.
 
+## Used Libraries
+```plain
+  ## import styled from '@emotion/styled';
+  ## import { TransitionGroup, CSSTransition } from 'react-transition-group´;
+```
 
 
 ## Images
